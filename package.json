@@ -1,0 +1,75 @@
+{
+    "author": "PandaFit",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pandafit",
+    "pebble": {
+        "displayName": "PandaFit",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_IMAGE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/ecstatic_1",
+                    "name": "ECSTATIC_1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ecstatic_0",
+                    "name": "ECSTATIC_0",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/frame-4",
+                    "name": "FRAME_30",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/frame-3",
+                    "name": "FRAME_20",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/frame-2",
+                    "name": "FRAME_10",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/frame-1",
+                    "name": "FRAME_1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_20",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "ed70b15c-3c48-4828-8e8c-e39a28efb38d",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.1.0"
+}
